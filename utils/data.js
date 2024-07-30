@@ -218,6 +218,7 @@ export const dataExperiences = [
 //
 
 import project3 from "./../public/images/architectureShema.png";
+import project4 from "./../public/images/chat-app.png";
 import project1 from "./../public/images/profile_page.jpeg";
 import project2 from "./../public/images/taskEaseProject.jpeg";
 export const dataProjects = [
@@ -295,5 +296,31 @@ export const dataProjects = [
       "Taskease is a Next.js web application designed for efficient task management, akin to Trello. Users can categorize tasks into three boards: Todo, In Progress, and Done, facilitating clear progress tracking. Key features include easy task creation with detailed descriptions, due dates, and more, as well as a drag-and-drop interface for seamless task movement between boards. ",
     seeCode: "https://github.com/redaachouhad/eco-shop-app",
     liveDemo: "https://github.com/redaachouhad/eco-shop-app",
+  },
+  {
+    image: project4,
+    tech: [
+      "Html",
+      "tailwindCss",
+      "Javascript",
+      "Typescript",
+      "React.js",
+      "Next.js",
+      "NextAuth.js",
+      "Redux toolkit",
+      "react Icon",
+      "Mongoose",
+      "MongoDb",
+      "Node.js",
+      "Express.js",
+      "Pusher",
+      "Vercel",
+    ],
+    title: "Eco Shop App",
+    typeProject: "Full Stack Project : ",
+    description:
+      "Chat App is a real-time messaging application developed using Next.js for the frontend and Node.js for the backend. This application allows users to communicate with each other through private messages, ensuring a seamless and interactive chatting experience.",
+    seeCode: "https://github.com/redaachouhad/chat-app",
+    liveDemo: "https://chat-app-reda-achouhads-projects.vercel.app",
   },
 ];
