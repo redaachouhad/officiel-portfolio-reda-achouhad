@@ -103,6 +103,7 @@ import logoPython from "./../public/images/python.webp";
 import logoPytorch from "./../public/images/pytorch.webp";
 import logoReact from "./../public/images/react.webp";
 import logoRedux from "./../public/images/redux.png";
+import logoScript from "./../public/images/shell_script.webp";
 import logoSpringBoot from "./../public/images/springBoot.png";
 import logoTailwindcss from "./../public/images/tailwindcss.png";
 import logoTerraform from "./../public/images/terraform.png";
@@ -149,6 +150,7 @@ export const dataSkills = [
   {
     title: "Devops",
     items: [
+      { imageSrc: logoScript, name: "Shell Script" },
       { imageSrc: logoGit, name: "Git" },
       { imageSrc: logoJenkins, name: "Jenkins" },
       { imageSrc: logoDocker, name: "Docker" },
